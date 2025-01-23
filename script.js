@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const feedbackDiv = document.getElementById("form-feedback");
 
     form.addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault();
 
         // Retrieve and trim input values
         const username = document.getElementById("username").value.trim();
